@@ -19,7 +19,7 @@
         <button type="submit">Add item</button>
       </p>
     </form>
-    <p v-if="todoList.length >= 4">Hebat!</p>
+    <p>{{ isHebat }}</p>
   </div>
 </template>
 
